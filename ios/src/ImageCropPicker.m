@@ -51,9 +51,9 @@
 {
     if (!self._moveAndScaleLabel) {
         self._moveAndScaleLabel = [[UILabel alloc] init];
-        self._moveAndScaleLabel.backgroundColor = [UIColor clearColor];
+        self._moveAndScaleLabel.backgroundColor = [UIColor yellowColor];
         self._moveAndScaleLabel.text = self.toolbarTitle;
-        self._moveAndScaleLabel.textColor = [UIColor whiteColor];
+        self._moveAndScaleLabel.textColor = [UIColor blueColor];
         self._moveAndScaleLabel.translatesAutoresizingMaskIntoConstraints = NO;
         self._moveAndScaleLabel.opaque = NO;
     }
